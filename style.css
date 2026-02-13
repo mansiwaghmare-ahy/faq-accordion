@@ -43,6 +43,10 @@ hr {
 
 }
 
+.collapse *{
+    cursor: pointer;
+}
+
 .question{
     display: flex;
     justify-content: space-between;
