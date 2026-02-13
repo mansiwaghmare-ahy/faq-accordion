@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(275, 100%, 97%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: none;
+    background-color: hsl(0, 100%, 100%);
+    padding: 20px;
+    border-radius: 20px;
+    width: min(90%, 600px);
+}
+
+hr {
+    border: none;
+    border: 1px solid rgb(243, 240, 240);
+    margin: 15px 0;
+}
+
+.collapse {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 30px;
+
+}
+
+.answer{
+    font-size: 14px;
+    display: none;
+    color: rgb(166, 164, 164);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#first_collapse {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+#first_collapse p {
+    font-size: 50px;
+    font-weight: 700;
+    color: hsl(292, 42%, 14%);
+    font-family: "Poppins", sans-serif;
+    ;
+}
+
+.question {
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
